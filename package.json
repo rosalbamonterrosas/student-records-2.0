@@ -1,0 +1,25 @@
+{
+  "name": "hw5-rosalbamonterrosas",
+  "version": "1.0.0",
+  "description": "To clone this repository: 1. Open a terminal or command prompt Window 2. Use the `cd` command to change the directory/folder you want to save this repository to 3. Click on the green \"Code\" button in GitHub and copy the clone URL 4. In your terminal/command prompt, use the `git clone` command, followed the URL copied above.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COT4930-Spring-2022-Fullstack-Web/hw5-rosalbamonterrosas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COT4930-Spring-2022-Fullstack-Web/hw5-rosalbamonterrosas/issues"
+  },
+  "homepage": "https://github.com/COT4930-Spring-2022-Fullstack-Web/hw5-rosalbamonterrosas#readme",
+  "dependencies": {
+    "mongodb": "^4.4.1"
+  }
+}
