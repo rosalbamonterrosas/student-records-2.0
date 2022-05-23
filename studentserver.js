@@ -340,4 +340,4 @@ const deleteStudent = (recordId, res) => {
 }
 
 app.listen(5678); //start the server
-console.log('Server is running...');
+console.log('Server is running at http://localhost:5678');
