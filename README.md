@@ -1,4 +1,4 @@
-# MongoDB + Node.js + Express
+# Student Records - MongoDB, Node.js, and Express
 Rosalba Monterrosas
 
 # Table of Contents
