@@ -1,4 +1,4 @@
-# HW 5 - MongoDB + Node.js + Express
+# MongoDB + Node.js + Express
 Rosalba Monterrosas
 
 # Table of Contents
@@ -16,10 +16,10 @@ Rosalba Monterrosas
 
 ## About the Project
 
-This project contains a main html file, index.html, where the user can click
-on one of the following five options: add a student, update a student, delete a
-student, get a student, or search the students. The following HTTP methods are
-used in the request for each option:
+This project contains a main html file, at http://localhost:5678, where the 
+user can click on one of the following five options: add a student, update a 
+student, delete a student, get a student, or search the students. The following 
+HTTP methods are used in the request for each option:
 
 * POST: create a new student and checks for duplicates
 * PUT: update a student by record id
@@ -49,7 +49,17 @@ The frontend interacts with the existing backend (studentserver.js).
 
 ### Deploying the Application
 
-Run the student server express app and mongod in the background.
+1.	Install the following
+    * node v16.14.0
+    * npm v8.4.1
+    *	MongoDB
+
+2.	Run the command `npm install` to install all modules listed as dependencies 
+in `package.json`
+
+3.	Start MongoDB
+
+4.	Run the command `node studentserver.js` to start the server
 
 ## Project Explanation
 
